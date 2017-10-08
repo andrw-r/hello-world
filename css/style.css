@@ -2,18 +2,18 @@
     font-family: 'FixedsysExcelsior';
     font-style: normal;
     font-weight: 400;
-    src: url('../fsex300-webfont.eot');
-    src: url('../fsex300-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fsex300-webfont.woff') format('woff'),
-         url('../fsex300-webfont.ttf') format('truetype'),
-         url('../fsex300-webfont.svg#FixedsysExcelsior301Regular') format('svg');
+    src: url('../font/fsex300-webfont.eot');
+    src: url('../font/fsex300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/fsex300-webfont.woff') format('woff'),
+         url('../font/fsex300-webfont.ttf') format('truetype'),
+         url('../font/fsex300-webfont.svg#FixedsysExcelsior301Regular') format('svg');
     -webkit-font-smoothing: aliased;
     font-smooth: never;
 }
 
 body {
     color: #FFFFFF;
-    background-color: #FFFFFF;
+    background-color: #000000;
     top: 50%;
     left: 50%;
     font-family: 'FixedsysExcelsior', sans-serif;
@@ -24,19 +24,6 @@ a, a:visited {
     text-decoration:  none;
 }
 
-video {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    transition: 1s opacity;
-}
 
 #title {
     color: #FFFFFF;
